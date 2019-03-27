@@ -21,10 +21,12 @@ Starter project for a REST API with Node.js, Express &amp; MongoDB
 - [morgan : ~1.9.0](https://github.com/expressjs/morgan)
 
 ## Installation
-* `git clone https://github.com/trionoputra/express-mongoose-rest-api.git`
-* `cd express-mongoose-rest-api`
-* `npm install`
-* `npm start`
+```sh
+$ git clone https://github.com/trionoputra/express-mongoose-rest-api.git
+$ cd express-mongoose-rest-api
+$ npm install
+$ npm start
+```
 
 ## Routes
 ### GET `http://localhost:3000/user`
