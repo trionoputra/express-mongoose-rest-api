@@ -27,3 +27,54 @@ Starter project for a REST API with Node.js, Express &amp; MongoDB
 * `npm start`
 
 ## Routes
+### GET `http://localhost:3000/user`
+
+Get all users.
+
++ Method: `GET`
++ URL: `http://localhost:3000/user`
+
+### POST `http://localhost:3000/user`
+
+Create a new item.
+
++ Method: `POST`
++ URL: `http://localhost:3000/user`
++ Body:
+
+```js
+{
+  "id": "1",
+  "name": "Trionoputra"
+  "password": "123456"
+}
+```
+
+### GET `http://localhost:3000/user/:userId`
+
+Get item with specific id.
+
++ Method: `GET`
++ URL: `http://localhost:3000/user/1`
+
+### PUT `http://localhost:3000/user/:userId`
+
+Update entire item with specific id.
+
++ Method: `PUT`
++ URL: `http://localhost:3000/user/1`
++ Body:
+
+```js
+{
+  "name": "Triono putra"
+  "password": "1234567890"
+}
+```
+
+### DELETE `http://localhost:3000/user/:userId`
+
+Delete item with specific id.
+
++ Method: `DELETE`
++ URL: `http://localhost:3000/user/1`
