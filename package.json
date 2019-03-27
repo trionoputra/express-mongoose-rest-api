@@ -1,0 +1,25 @@
+{
+  "name": "myapps",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "start": "node ./bin/www"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "body-parser": "^1.18.3",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.9",
+    "express": "~4.16.0",
+    "http-errors": "~1.6.2",
+    "jade": "~1.11.0",
+    "moment": "^2.24.0",
+    "mongoose": "^5.4.10",
+    "mongoose-unique-validator": "^2.0.2",
+    "morgan": "~1.9.0"
+  },
+  "devDependencies": {
+    "gulp": "^4.0.0",
+    "javascript-obfuscator": "^0.18.1"
+  }
+}
