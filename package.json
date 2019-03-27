@@ -1,5 +1,5 @@
 {
-  "name": "myapps",
+  "name": "express-mongoose-rest-api",
   "version": "0.0.0",
   "private": true,
   "scripts": {
@@ -12,14 +12,10 @@
     "debug": "~2.6.9",
     "express": "~4.16.0",
     "http-errors": "~1.6.2",
-    "jade": "~1.11.0",
     "moment": "^2.24.0",
     "mongoose": "^5.4.10",
     "mongoose-unique-validator": "^2.0.2",
     "morgan": "~1.9.0"
   },
-  "devDependencies": {
-    "gulp": "^4.0.0",
-    "javascript-obfuscator": "^0.18.1"
-  }
+  "devDependencies": {}
 }

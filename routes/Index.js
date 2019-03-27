@@ -5,7 +5,6 @@ const homeRoute = require('../controllers/Home');
 const userRoute = require('../controllers/User');
 
 router.use(function (req, res, next) {
-  //console.log("test",req.headers);
   next()
 })
 

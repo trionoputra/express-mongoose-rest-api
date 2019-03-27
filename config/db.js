@@ -1,6 +1,6 @@
 var mongoose = require('mongoose');
 
-var dbURI = 'mongodb://localhost/cashier';
+var dbURI = 'mongodb://localhost/dbname';
 // current URI deprecated future replace
 // mongoose.connect('mongodb://user:[password@sample.com](mailto:password@sample.com):port/dbname', { useNewUrlParser: true })
 
