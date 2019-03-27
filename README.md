@@ -36,7 +36,7 @@ Get all users.
 
 ### POST `http://localhost:3000/user`
 
-Create a new item.
+Create a new user.
 
 + Method: `POST`
 + URL: `http://localhost:3000/user`
@@ -52,14 +52,14 @@ Create a new item.
 
 ### GET `http://localhost:3000/user/:userId`
 
-Get item with specific id.
+Get user with specific id.
 
 + Method: `GET`
 + URL: `http://localhost:3000/user/1`
 
 ### PUT `http://localhost:3000/user/:userId`
 
-Update entire item with specific id.
+Update entire user with specific id.
 
 + Method: `PUT`
 + URL: `http://localhost:3000/user/1`
@@ -74,7 +74,7 @@ Update entire item with specific id.
 
 ### DELETE `http://localhost:3000/user/:userId`
 
-Delete item with specific id.
+Delete user with specific id.
 
 + Method: `DELETE`
 + URL: `http://localhost:3000/user/1`
